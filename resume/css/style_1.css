@@ -1,0 +1,31 @@
+body {
+    padding: 12px;
+    font-family: STXihei,
+    "华文细黑",
+    "Microsoft YaHei",
+    "微软雅黑";
+}
+.content div + div h2 {
+    margin-top: 0;
+}
+.content > div::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content div.row p {
+    float: left;
+}
+.content div p {
+    margin-right: 24px;
+}
+.content p {
+    line-height: 28px;
+}
+.content > div {
+    margin-bottom: 32px;
+}
+.content b {
+    margin-right: 17px;
+}

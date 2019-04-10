@@ -1,0 +1,67 @@
+.left-bar {
+   float: left;
+    
+}
+.left-bar + div {
+    overflow: hidden;
+}
+.left-bar {
+    height: 100%;
+    background-color: rgb(101, 165, 250);
+    padding-bottom: 1000px;
+    margin-bottom: -1000px;
+    margin-right: 24px;
+}
+.wrapper {
+    height: auto;
+    overflow: hidden;
+}
+h1 {
+   
+    color: white;
+    width: 300px;
+    text-align: center;
+    
+}
+
+
+/* 上面的rules 是相对与style_1 新增加的内容*/
+
+body {
+    padding: 12px;
+    font-family: STXihei,
+        "华文细黑",
+        "Microsoft YaHei",
+        "微软雅黑";
+    overflow: auto;
+}
+
+.content div+div h2 {
+    margin-top: 0;
+}
+
+body::after, .content>div::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content div.row p {
+    float: left;
+}
+
+.content div p {
+    margin-right: 24px;
+}
+
+.content p {
+    line-height: 28px;
+}
+
+.content>div {
+    margin-bottom: 32px;
+}
+
+.content b {
+    margin-right: 17px;
+}
