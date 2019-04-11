@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>页面布局</title>
+    <link rel="stylesheet" href="main.css">
+    </link>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <span class="website-logo">Logo</span>
+            <ul>
+                <li><a href="#">Github</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <div class="slider">
+        <div class="slider-container">
+            <div class="slide fade">
+                <h2>the first</h2>
+                <p>没有难懂的定义，没有晦涩的概念，神永正博教授让你看到微积分最朴实可爱的一面</p>
+            </div>
+             <div class="slide fade">
+                 <h2>the second</h2>
+                 <p>日本数学启蒙名作，物理学家大栗博司赠给女儿的“私房”数学科普读本</p>
+             </div>
+              <div class="slide fade">
+                  <h2>the third</h2>
+                  <p>一本“数学词典”该是什么样子的？一件雕塑作品中隐藏着怎样的几何秘密？如何用数学破解魔方、象棋和七巧板的奥秘？《玩不够的数学》告诉你答案！</p>
+              </div>
+               <div class="slide fade">
+                   <h2>the fourth</h2>
+                   <p>菲尔兹奖、沃尔夫奖、日本文化勋章得主，日本数学大家 小平邦彦 几何入门科普作品+数学随笔文集，跟随大师走进数学的世界！</p>
+               </div>
+        </div>
+        
+        <div class="slider-switch">
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+        </div>
+    </div>
+
+    <main>
+        <div class="nav-tags">
+            <input type="radio" name="navigation-tag" id="home-tag" checked>
+            <label for="home-tag">HOME</label>
+            <input type="radio" name="navigation-tag" id="profile-tag">
+            <label for="profile-tag">PROFILE</label>
+            <input type="radio" name="navigation-tag" id="about-tag">
+            <label for="about-tag">ABOUT</label>
+        </div>
+
+        <div class="contents">
+            <div class="home-content content">
+                <div class="row">
+                  <div>
+                      <p>content1</p>
+                  </div>
+                  <div>
+                      <p>content2</p>
+                  </div>
+                  <div>
+                      <p>content3</p>
+                  </div>
+                </div>
+                
+                <div class="row">
+                   <div>
+                       <p>content4</p>
+                   </div>
+                   <div>
+                       <p>content5</p>
+                   </div>
+                   <div>
+                       <p>content6</p>
+                   </div>
+                   <div>
+                       <p>content7</p>
+                   </div>
+                </div>
+                
+                <div class="row">
+                  <div>
+                      <p>content8</p>
+                  </div>
+                  <div>
+                      <p>content9</p>
+                  </div>
+                  <div>
+                      <p>content10</p>
+                  </div>
+                </div>  
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <small>2018 ife.buid.com</small>
+    </footer>
+<script src="main.js"></script>
+</body>
+
+</html>

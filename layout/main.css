@@ -1,0 +1,137 @@
+header {
+    background-color: #333;
+}
+header .wrapper {
+    width: 960px;
+    margin: 0 auto;
+    color: #fff
+}
+.website-logo {
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 48px;
+}
+header ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+header li {
+    display: inline;
+}
+header li a {
+    display: inline-block;
+    padding: 5px 9px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* slider  轮番 */
+.slider {
+    position: relative;
+    height: 221px;
+    background-color: #66bb33;
+}
+.slider-container {
+    height: 221px;
+    width:960px;
+    margin: 0 auto;
+}
+.slide {
+    display: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0 12px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+.slider-switch {
+    position: absolute;
+    right: 121px;
+    bottom: 21px;
+}
+.slider-switch a {
+    display: inline-block;
+    overflow: hidden;
+    border: 1px solid #111;
+    width: 31px;
+    height: 39px;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: baseline;
+    line-height: 39px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #111;
+}
+.slider-switch .active {
+    padding-top: 12px;
+    background-color: #fff;
+}
+
+main {
+    padding-top: 22px;
+}
+/* contents */
+.nav-tags, .content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.contents {
+    border-top: 1px solid #d4d4d4;
+    padding-top: 11px;
+}
+.home-content {
+    display: flex;
+    flex-direction: column;
+}
+.home-content .row {
+    display: flex;
+    margin-bottom: 11px;
+}
+.home-content .row > div {
+    flex-grow: 1;
+    margin-right: 11px;
+    padding: 80px;
+    border: 1px solid #d4d4d4;
+    text-align: center;
+}
+.home-content .row > div:last-child {
+    margin-right: 0;
+}
+
+
+.nav-tags input {
+    display: none;
+}
+.nav-tags label {
+    display: inline-block;
+    border: 1px solid #d4d4d4;
+    border-radius: 10px 10px 0 0;
+    padding: 12px 16px;
+    margin-bottom: -1px;
+    background-color: #eee;
+}
+.nav-tags input:checked + label {
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+}
+/* footer */
+footer {
+    height: 68px;
+    text-align: center;
+    color: #fff;
+    background-color: #666;
+}
